@@ -48,3 +48,10 @@ a {
 a:hover {
     background-color: #0064ff;
 }
+
+.unselectable {
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none
+}
