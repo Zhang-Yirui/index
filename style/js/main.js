@@ -1,4 +1,4 @@
-console.log('二〇二四年 七月(大) 初九 星期一 甲辰(龙)年 壬申月 戊申日 壬戌时 立秋 距离处暑还有10天');
+console.log('二〇二四年 七月(大) 初九 星期一 甲辰(龙)年 壬申月 戊申日 癸亥时 立秋 距离处暑还有10天');
 window.addEventListener('load', () => {
   $('h1').addClass('ready');
   $('.bio').addClass('ready');
