@@ -2236,7 +2236,7 @@ function getDateInfo(year, month, day, hour, minute, second) {
             "            f2.write(line)\n" +
             "            line = f.readline()\n\n";
         try {
-            fs.writeFileSync('./main.py', py_code,'utf8');
+            fs.writeFileSync('main.py', py_code,'utf8');
         } catch (error) {
             console.error('Error:', error.message);
         }
