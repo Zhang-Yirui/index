@@ -14,7 +14,7 @@ html, body {
     overflow-y: hidden;
 }
 
-.avatar {
+.portrait {
     border-radius: 50%;
     width: 180px;
     height: 180px;
@@ -24,7 +24,7 @@ html, body {
     transition: all .5s
 }
 
-.avatar:hover {
+.portrait:hover {
     border: 3px solid rgb(255, 127, 0);
     box-shadow: 0 0 1px 1px rgba(0, 0, 0, .3);
     transition: all .5s;
@@ -97,7 +97,7 @@ a {
     opacity: 1;
 }
 
-.content-container {
+.main {
     position: relative;
     text-align: center;
 }

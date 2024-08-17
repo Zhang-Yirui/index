@@ -2212,7 +2212,6 @@ function getDateInfo(year, month, day, hour, minute, second) {
     const info = getDateInfo(current_year, current_month, current_day, current_hours, current_minutes, current_seconds);
     const calendar = info.data;
     if (info.result === "success") {
-        const fs = require('fs');
         // const yaml = require('js-yaml');
         const ret_str = `${Nums[Math.floor(calendar.lunar.lunarYear / 1000)]}${Nums[Math.floor(calendar.lunar.lunarYear / 100 % 10)]}` +
             `${Nums[Math.floor(calendar.lunar.lunarYear % 100 / 10)]}${Nums[Math.floor(calendar.lunar.lunarYear % 10)]}年 ` +
@@ -2226,17 +2225,18 @@ function getDateInfo(year, month, day, hour, minute, second) {
             `距离${Jieqi[calendar.jieqi.nextJieqi - 1]}还有${calendar.jieqi.nextJieqiRemainDays}天`;
         // console.log(current_year, current_month, current_day, current_hours, current_minutes, current_seconds);
         console.log(ret_str);
-        const py_code = "with open('./main.bak.js', 'r') as f:\n" +
+        const fs = require('fs');
+        const py_code = "with open('./main.bak.js', 'r', encoding='utf-8') as f:\n" +
             "    line = f.readline()\n" +
-            "    if line and line.startswith('console.log'):\n" +
-            "        with open('./lunar-info.txt', 'r') as f1:\n" +
-            "            line = f'console.log(\\'' + f1.readline().replace('\\n', '') + '\\');\\n'\n" +
-            "    with open('./main.js', 'w') as f2:\n" +
+            "    if line and line.startswith('window.onload'):\n" +
+            "        with open('./lunar-info.txt', 'r', encoding='utf-8') as f1:\n" +
+            "            line = 'window.onload = () => {console.log(\\'' + f1.readline().replace('\\n', '') + '\\');}\\n'\n" +
+            "    with open('./main.js', 'w', encoding='utf-8') as f2:\n" +
             "        while line:\n" +
             "            f2.write(line)\n" +
             "            line = f.readline()\n\n";
         try {
-            fs.writeFileSync('./workspace/main.py', py_code,'utf8');
+            fs.writeFileSync('./main.py', py_code,'utf8');
         } catch (error) {
             console.error('Error:', error.message);
         }
