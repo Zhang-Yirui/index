@@ -26,7 +26,7 @@ jobs:
 
         shell: bash
 
-      - name: Add info
+      - name: Add lunar info
         run: |
           mkdir workspace
           cp ./style/js/main.js ./workspace/main.bak.js
