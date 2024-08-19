@@ -2212,7 +2212,6 @@ function getDateInfo(year, month, day, hour, minute, second) {
     const info = getDateInfo(current_year, current_month, current_day, current_hours, current_minutes, current_seconds);
     const calendar = info.data;
     if (info.result === "success") {
-        // const yaml = require('js-yaml');
         const ret_str = `${Nums[Math.floor(calendar.lunar.lunarYear / 1000)]}${Nums[Math.floor(calendar.lunar.lunarYear / 100 % 10)]}` +
             `${Nums[Math.floor(calendar.lunar.lunarYear % 100 / 10)]}${Nums[Math.floor(calendar.lunar.lunarYear % 10)]}年 ` +
             `${Other[calendar.lunar.isLeapMonth + 2]}${Yueming[calendar.lunar.lunarMonth - 1]}(${Other[calendar.lunar.isDXYue + 0]}) ` +
