@@ -30,8 +30,13 @@ jobs:
         run: |
           mkdir workspace
           cp ./style/js/main.js ./workspace/main.bak.js
+          echo "print('null info')" > ./workspace/main.py
           echo $(node ./style/js/lunar.js) > ./workspace/lunar-info.txt
           cat ./workspace/lunar-info.txt
+        shell: bash
+
+      - name: Generate index
+        run: |
           cd ./workspace
           python ./main.py
           rm ${{ github.workspace }}/style/js/main.js
