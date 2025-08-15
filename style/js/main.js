@@ -1,4 +1,4 @@
-window.onload = () => {console.log('二〇二五年 闰六月(小) 廿二 星期五 乙巳(蛇)年 甲申月 丙辰日 己亥时 立秋 距离处暑还有8天');}
+window.onload = () => {console.log('二〇二五年 闰六月(小) 廿二 星期五 乙巳(蛇)年 甲申月 丙辰日 庚子时 立秋 距离处暑还有8天');}
 window.addEventListener('load', () => {
     $('h1').addClass('ready');
     $('.bio').addClass('ready');
