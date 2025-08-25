@@ -1,4 +1,4 @@
-window.onload = () => {console.log('二〇二五年 七月(大) 初四 星期二 乙巳(蛇)年 甲申月 丁卯日 辛丑时 处暑 距离白露还有-19天');}
+window.onload = () => {console.log('二〇二五年 七月(大) 初四 星期二 乙巳(蛇)年 甲申月 丁卯日 壬寅时 处暑 距离白露还有-19天');}
 window.addEventListener('load', () => {
     $('h1').addClass('ready');
     $('.bio').addClass('ready');
