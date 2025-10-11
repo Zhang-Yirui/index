@@ -1,4 +1,4 @@
-window.onload = () => {console.log('二〇二五年 八月(小) 廿一 星期日 乙巳(蛇)年 丙戌月 甲寅日 丁卯时 寒露 距离霜降还有11天');}
+window.onload = () => {console.log('二〇二五年 八月(小) 廿一 星期日 乙巳(蛇)年 丙戌月 甲寅日 戊辰时 寒露 距离霜降还有11天');}
 window.addEventListener('load', () => {
     $('h1').addClass('ready');
     $('.bio').addClass('ready');
