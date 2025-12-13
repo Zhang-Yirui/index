@@ -1,4 +1,4 @@
-window.onload = () => {console.log('二〇二五年 十月(大) 廿四 星期六 乙巳(蛇)年 戊子月 丙辰日 癸巳时 大雪 距离冬至还有8天');}
+window.onload = () => {console.log('二〇二五年 十月(大) 廿四 星期六 乙巳(蛇)年 戊子月 丙辰日 甲午时 大雪 距离冬至还有8天');}
 window.addEventListener('load', () => {
     $('h1').addClass('ready');
     $('.bio').addClass('ready');
