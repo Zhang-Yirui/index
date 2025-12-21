@@ -1,4 +1,4 @@
-window.onload = () => {console.log('二〇二五年 冬月(大) 初二 星期日 乙巳(蛇)年 戊子月 甲子日 乙亥时 冬至* 距离小寒还有17天');}
+window.onload = () => {console.log('二〇二五年 冬月(大) 初二 星期日 乙巳(蛇)年 戊子月 甲子日 丙子时 冬至* 距离小寒还有17天');}
 window.addEventListener('load', () => {
     $('h1').addClass('ready');
     $('.bio').addClass('ready');
