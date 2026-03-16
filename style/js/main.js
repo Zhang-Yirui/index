@@ -1,4 +1,4 @@
-window.onload = () => {console.log('二〇二六年 正月(大) 廿八 星期一 丙午(马)年 辛卯月 己丑日 乙亥时 惊蛰 距离春分还有4天');}
+window.onload = () => {console.log('二〇二六年 正月(大) 廿九 星期二 丙午(马)年 辛卯月 庚寅日 丙子时 惊蛰 距离春分还有3天');}
 window.addEventListener('load', () => {
     $('h1').addClass('ready');
     $('.bio').addClass('ready');
