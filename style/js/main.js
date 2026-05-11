@@ -1,4 +1,4 @@
-window.onload = () => {console.log('二〇二六年 三月(大) 廿五 星期一 丙午(马)年 癸巳月 乙酉日 甲申时 立夏 距离小满还有10天');}
+window.onload = () => {console.log('二〇二六年 三月(大) 廿五 星期一 丙午(马)年 癸巳月 乙酉日 丙戌时 立夏 距离小满还有10天');}
 window.addEventListener('load', () => {
     $('h1').addClass('ready');
     $('.bio').addClass('ready');
