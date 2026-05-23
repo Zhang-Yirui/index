@@ -1,4 +1,4 @@
-window.onload = () => {console.log('二〇二六年 四月(小) 初七 星期六 丙午(马)年 癸巳月 丁酉日 辛亥时 小满 距离芒种还有-18天');}
+window.onload = () => {console.log('二〇二六年 四月(小) 初八 星期日 丙午(马)年 癸巳月 戊戌日 壬子时 小满 距离芒种还有-19天');}
 window.addEventListener('load', () => {
     $('h1').addClass('ready');
     $('.bio').addClass('ready');
