@@ -1,4 +1,4 @@
-window.onload = () => {console.log('二〇二六年 五月(小) 廿四 星期三 丙午(马)年 乙未月 癸未日 壬子时 小暑 距离大暑还有15天');}
+window.onload = () => {console.log('二〇二六年 五月(小) 廿四 星期三 丙午(马)年 乙未月 癸未日 甲寅时 小暑 距离大暑还有15天');}
 window.addEventListener('load', () => {
     $('h1').addClass('ready');
     $('.bio').addClass('ready');
