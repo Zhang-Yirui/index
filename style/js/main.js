@@ -1,4 +1,4 @@
-window.onload = () => {console.log('二〇二六年 六月(大) 十五 星期二 丙午(马)年 乙未月 癸卯日 甲子时 大暑 距离立秋还有-21天');}
+window.onload = () => {console.log('二〇二六年 六月(大) 十六 星期三 丙午(马)年 乙未月 甲辰日 乙丑时 大暑 距离立秋还有-22天');}
 window.addEventListener('load', () => {
     $('h1').addClass('ready');
     $('.bio').addClass('ready');
