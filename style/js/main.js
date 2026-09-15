@@ -1,4 +1,4 @@
-window.onload = () => {console.log('二〇二六年 八月(小) 初五 星期二 丙午(马)年 丁酉月 壬辰日 癸卯时 白露 距离秋分还有8天');}
+window.onload = () => {console.log('二〇二六年 八月(小) 初五 星期二 丙午(马)年 丁酉月 壬辰日 甲辰时 白露 距离秋分还有8天');}
 window.addEventListener('load', () => {
     $('h1').addClass('ready');
     $('.bio').addClass('ready');
