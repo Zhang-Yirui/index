@@ -1,4 +1,4 @@
-window.onload = () => {console.log('二〇二六年 八月(小) 廿六 星期二 丙午(马)年 丁酉月 癸丑日 己未时 秋分 距离寒露还有2天');}
+window.onload = () => {console.log('二〇二六年 八月(小) 廿六 星期二 丙午(马)年 丁酉月 癸丑日 壬戌时 秋分 距离寒露还有2天');}
 window.addEventListener('load', () => {
     $('h1').addClass('ready');
     $('.bio').addClass('ready');
