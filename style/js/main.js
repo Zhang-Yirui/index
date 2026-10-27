@@ -1,4 +1,4 @@
-window.onload = () => {console.log('二〇二六年 九月(大) 十九 星期三 丙午(马)年 戊戌月 乙亥日 戊寅时 霜降 距离立冬还有-20天');}
+window.onload = () => {console.log('二〇二六年 九月(大) 十九 星期三 丙午(马)年 戊戌月 乙亥日 庚辰时 霜降 距离立冬还有-20天');}
 window.addEventListener('load', () => {
     $('h1').addClass('ready');
     $('.bio').addClass('ready');
